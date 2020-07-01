@@ -1,9 +1,3 @@
-# recaptcha
-Minimal Golang implementation of server-side Google recaptcha verification
-
-## Example
-
-```
 package main
 
 import (
@@ -53,4 +47,3 @@ func CheckResponse(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte("nah"))
 	}
 }
-```
