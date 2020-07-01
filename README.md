@@ -1,6 +1,8 @@
 # recaptcha
 Minimal Golang implementation of server-side Google recaptcha verification
 
+[![godocs](https://godoc.org/github.com/davidbanham/recaptcha?status.svg)](https://godoc.org/github.com/davidbanham/recaptcha)
+
 ## Example
 
 ```
